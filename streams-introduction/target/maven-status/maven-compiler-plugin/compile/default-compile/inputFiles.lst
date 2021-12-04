@@ -1,2 +1,6 @@
-/home/entitylabs/entity-labs/backend/spring-core/java-concepts/streams-introduction/src/main/java/org/entitylabs/streams/dishnames/DishNameFInder.java
-/home/entitylabs/entity-labs/backend/spring-core/java-concepts/streams-introduction/src/main/java/org/entitylabs/streams/dish/DishProvider.java
+C:\Users\sanya\entitylabs\backend\java-workspace\java-concepts-ocjp\streams-introduction\src\main\java\org\entitylabs\streams\dishnames\TerminalOperations.java
+C:\Users\sanya\entitylabs\backend\java-workspace\java-concepts-ocjp\streams-introduction\src\main\java\org\entitylabs\streams\dish\DishProvider.java
+C:\Users\sanya\entitylabs\backend\java-workspace\java-concepts-ocjp\streams-introduction\src\main\java\org\entitylabs\streams\dishnames\DistinctDishTypes.java
+C:\Users\sanya\entitylabs\backend\java-workspace\java-concepts-ocjp\streams-introduction\src\main\java\org\entitylabs\streams\dishnames\SortedDishes.java
+C:\Users\sanya\entitylabs\backend\java-workspace\java-concepts-ocjp\streams-introduction\src\main\java\org\entitylabs\streams\dishnames\IntermediateOperations.java
+C:\Users\sanya\entitylabs\backend\java-workspace\java-concepts-ocjp\streams-introduction\src\main\java\org\entitylabs\streams\dishnames\DishNameFinder.java

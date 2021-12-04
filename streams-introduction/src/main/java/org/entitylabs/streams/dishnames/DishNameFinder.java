@@ -17,20 +17,20 @@ public class DishNameFinder {
 
 	public static void main(String[] args) {
 
-		var serialStreamStartTime = System.currentTimeMillis();
+		Long serialStreamStartTime = System.currentTimeMillis();
 
 		DishProvider.getDishes().stream().filter(dish -> dish.getCalories() < 400).map(dish -> dish.getName())
 				.collect(Collectors.toList());
 
-		var serialStreamEndTime = System.currentTimeMillis();
+		Long serialStreamEndTime = System.currentTimeMillis();
 		System.out.println("Total procesing time serial stream: " + (serialStreamEndTime - serialStreamStartTime));
 
-		var parallelStreamStartTime = System.currentTimeMillis();
+		Long parallelStreamStartTime = System.currentTimeMillis();
 
 		DishProvider.getDishes().parallelStream().filter(dish -> dish.getCalories() < 400).map(dish -> dish.getName())
 				.collect(Collectors.toList());
 
-		var parallelStreamEndTime = System.currentTimeMillis();
+		Long parallelStreamEndTime = System.currentTimeMillis();
 
 		System.out
 				.println("Total procesing time parallel stream: " + (parallelStreamEndTime - parallelStreamStartTime));
